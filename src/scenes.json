@@ -87,5 +87,11 @@
         "name": "scene15",
         "image": "assets/images/img15.gif",
         "clicked": false
+    },
+    {
+        "id": 16,
+        "name": "scene16",
+        "image": "assets/images/img16.gif",
+        "clicked": false
     }
 ]

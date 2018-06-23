@@ -1,38 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:100|Martel:700');
-.Fragment {
-    background-color: #306799;
-}
-
-.navbar li {
-    display: inline-block;
-    font-family: "Heebo", sans-serif;
-    padding: 26px 0;
-    width: 33.3%;
-    text-align: center
-}
-
-.header h1 {
-    font-family: "Martel", serif;
-    margin-bottom: 10px;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.header h4 {
-    font-family: "Heebo", sans-serif;
-    margin-top: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.Header-image {
-    opacity: 0.5;
-    width: 100%;
-    z-index: -1;
-    margin-top: -50px
-}
+        @import url('https://fonts.googleapis.com/css?family=Heebo:100|Martel:700');
+        .Fragment {
+            margin-top: 0px;
+            background-color: #306799;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-family: "Heebo", sans-serif;
+            padding: 26px 0;
+            width: 33.3%;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-family: "Martel", serif;
+            padding-top: 250px;
+            margin-bottom: 10px;
+            margin-top: -100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        p {
+            font-family: "Heebo", sans-serif;
+            font-size: 18px;
+        }
+        
+        .Background-image {
+            position: absolute;
+            margin: 60px 0 0 0;
+            z-index: -2;
+            width: 100%;
+            opacity: 0.8;
+            top: 120;
+        }
+        
+        .Header-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.5;
+            width: 80%;
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        
+        .footer h5 {
+            margin: 40px 0px 40px 0px;
+            font-family: "Heebo", sans-serif;
+        }

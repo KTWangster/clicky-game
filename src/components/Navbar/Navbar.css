@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:100');
-.navbar {
-    background: #f5bf53;
-    color: #f8f5ee;
-    font-family: "Heebo", sans-serif;
-    min-height: 70px;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    white-space: nowrap;
-    display: block;
-    box-sizing: border-box;
-    font-size: 24px;
-    margin: 0px;
-}
+    @import url('https://fonts.googleapis.com/css?family=Heebo:300');
+    .navbar {
+        /* background: rgba(255, 255, 255, 0.4); */
+        /* color: #696969; */
+        background: #6f8c9c;
+        color: #ffffff;
+        font-family: "Heebo", sans-serif;
+        min-height: 100px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        white-space: nowrap;
+        display: block;
+        box-sizing: border-box;
+        font-size: 24px;
+        margin: 0px;
+    }

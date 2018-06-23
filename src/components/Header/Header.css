@@ -1,14 +1,16 @@
-.header {
-    /*background-color: #306799; */
-    background-color: #306799;
-    color: #ECEFF1;
-    width: 100%;
-    min-height: 300px;
-    padding: 90px 20px 30px 20px;
-    text-align: center;
-    display: block;
-    box-sizing: border-box;
-    font-size: 36px;
-    font-family: 'Martel', serif;
-    margin: 0;
-}
+                @import url('https://fonts.googleapis.com/css?family=Heebo:100');
+                .header {
+                    /* background-color: #306799; */
+                    background-color: #6f8c9c80;
+                    color: #ECEFF1;
+                    width: 100%;
+                    min-height: 450px;
+                    padding: 0px 20px 30px 20px;
+                    text-align: center;
+                    display: block;
+                    box-sizing: border-box;
+                    font-size: 36px;
+                    font-family: "Heebo", sans-serif;
+                    margin: 80px 0 0 0;
+                    position: relative;
+                }

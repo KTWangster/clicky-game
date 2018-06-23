@@ -3,14 +3,15 @@ import SceneCard from "./components/SceneCard";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import scenes from "./scenes.json";
 import './App.css';
 import headerImage from "./headerImg.gif";
+import backgroundImage from "./backgroundImg.jpg";
 
 let correctGuesses = 0;
 let highScore = 0;
-let displayMessage = "Click a scene to begin";
+let displayMessage = <p>Click a scene to begin<br/>but don't click on a the same scene twice!</p>;
 
 class App extends Component {
 // Setting this.state.scenes to the scenes json array
@@ -75,6 +76,7 @@ setClicked = id => {
   render() {
     return (
       <Fragment className="Fragment">
+      <img src={backgroundImage} className="Background-image" alt="cloudbackground"/>
         <Navbar>
             <li>Clicky Game</li>
             <li>{this.state.displayMessage}</li>
@@ -83,9 +85,6 @@ setClicked = id => {
         <Header>
         <img src={headerImage} className="Header-image" alt="totorowalk"/>
           <h1>My Neighbor Totoro</h1>
-          <h4>Click on a scene to earn points,
-            <br/>
-            but don't click on the same scene twice!</h4>
         </Header>
 
         <Wrapper className="Wrapper">
@@ -97,7 +96,9 @@ setClicked = id => {
             image={scene.image}
           />
         ))}
+       
       </Wrapper>
+      <Footer className="Footer"><h5>Clicky Game<br/>By Katie Wang</h5></Footer>
       </Fragment>
     );
   }
