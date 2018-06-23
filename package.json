@@ -12,5 +12,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "## Overview",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTWangster/clicky-game.git"
+  },
+  "author": "Katie Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KTWangster/clicky-game/issues"
+  },
+  "homepage": "https://github.com/KTWangster/clicky-game#readme"
 }

@@ -1,0 +1,14 @@
+.header {
+    /*background-color: #306799; */
+    background-color: #306799;
+    color: #ECEFF1;
+    width: 100%;
+    min-height: 300px;
+    padding: 90px 20px 30px 20px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    font-size: 36px;
+    font-family: 'Martel', serif;
+    margin: 0;
+}

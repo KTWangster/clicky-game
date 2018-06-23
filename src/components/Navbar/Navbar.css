@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100');
+.navbar {
+    background: #f5bf53;
+    color: #f8f5ee;
+    font-family: "Heebo", sans-serif;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    white-space: nowrap;
+    display: block;
+    box-sizing: border-box;
+    font-size: 24px;
+    margin: 0px;
+}

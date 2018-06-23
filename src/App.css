@@ -1,28 +1,34 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Heebo:100|Martel:700');
+.navbar li {
+    display: inline-block;
+    font-family: "Heebo", sans-serif;
+    padding: 26px 0;
+    width: 33.3%;
+    text-align: center
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.header h1 {
+    font-family: "Martel", serif;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.header h4 {
+    font-family: "Heebo", sans-serif;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Header-image {
+    opacity: 0.5;
+    width: 100%;
+    z-index: -1;
+    margin-top: -50px
 }
