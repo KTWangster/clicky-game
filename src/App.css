@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:100|Martel:700');
+.Fragment {
+    background-color: #306799;
+}
+
 .navbar li {
     display: inline-block;
     font-family: "Heebo", sans-serif;

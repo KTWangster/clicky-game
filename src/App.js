@@ -40,6 +40,7 @@ setClicked = id => {
     } else if (correctGuesses < 11) {
       clickedMatch[0].clicked = true;
       correctGuesses++;
+      displayMessage = "Keep going!";
 
       if (correctGuesses > highScore) {
         highScore = correctGuesses;
@@ -73,7 +74,7 @@ setClicked = id => {
 // Map over this.state.scenes and render a SceneCard component fro each scene obj
   render() {
     return (
-      <Fragment>
+      <Fragment className="Fragment">
         <Navbar>
             <li>Clicky Game</li>
             <li>{this.state.displayMessage}</li>
